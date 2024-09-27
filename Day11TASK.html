@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewreport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="breakfast.jpg">
+        <link rel="preconnect" href="lunch.jpg" >
+        <link rel="preconnect" href="snacks.jpg">
+        <link rel="stylesheet" href="style.css">
+        <title>Filter Page</title>
+    </head>
+    <body>
+        <div class="topSection">
+            <div class="logo">e!</div>
+                <div class="navbar">
+                <div class="navbar_box">
+                    <button class="LoginButton">Login</button>
+                    <button class="CreateButton">Create an Account</button>
+            </div>     
+            </div>
+        </div>
+            <br/>
+
+
+        <br/>
+        <br/>
+        <div class="container">
+            <div class="row_heading">
+                Breakfast places in Mumbai
+            </div>
+            <div class="row">
+                <div class="col-3 col-sm-12 col-md-4 col-lg-3">
+                    <div class="filterPanel">
+                        <div class="filterPanelHeading">
+                            Filters
+                        </div>
+                    <div class="filterPanelSubHeadinig">
+                        select Location
+                    </div>
+                    <select class="locationSelection">
+                        <option disabled selected>Select Location</option>
+                        <option>delhi</option>
+                        <option>hyd</option>
+                        <option>kolkata</option>
+                        <option>chennai</option>
+                    </select>
+                    <div class="filterPanekSubHeading">
+                        Cuisine
+                    </div>
+                    <input type="checkbox" class="cuisinOption">
+                        <label>North Indian</label>
+                    </input>
+                    <input type="checkbox" class="cuisinOption">
+                        <label>South Indian</label>
+                    </input>
+                    <br/>
+                    <input type="checkbox" class="cuisinOption">
+                        <label>Chinese</label>
+                    </input>
+                    <br/>
+                    <input type="checkbox" class="cuisinOption">
+                        <label>fast food</label>
+                    </input>
+                    <br/>
+                    <input type="checkbox" class="cuisinOption">
+                        <label>street food</label>
+                    </input>
+                    <br/>
+                    <div class="filterPanelSubHeading">
+                        coast for two
+                    </div>
+                    <input type="radio" class="cuisinOption" name="cost">
+                        <label>Less than &#8377;500 </label>
+                    </input>
+                    <br/>
+                    <input type="radio" class="cuisinOption" name="cost">
+                        <label>&#8377;500 to &#8377;1000</label>
+                    </input>
+                    <br/>
+                    <input type="radio" class="cuisinOption" name="cost">
+                        <label>&#8377;1000 to &#8377;1500</label>
+                    </input>
+                    <br/>
+                    <input type="radio" class="cuisinOption" name="cost">
+                        <label>&#8377;1500 to &#8377;2000</label>
+                    </input>
+                    <br/>
+                    <input type="radio" class="cuisinoption" name="cost">
+                        <label>&#8377; 2000+</label>
+                    </input>
+                    <br/>
+                    <div class="filterPanelSubHeading">
+                        sort
+                    </div>
+                    <input type="radio" class="cuisinOption" name="price">
+                        <label>price low to high</label>
+                    </input>
+                    <br/>
+                    <input type="radio" class="cuisinOption" name="price">
+                        <label>price high to low</label>
+                    </input>
+
+                </div>
+                <div class="col-9 col-sm-12 col-md-8 col-lg-9">
+                    <div class="resultsPanel">
+                        <div class="row upperSection">
+                            <div class="col-2">
+                                <img src="breakfast.jpg" class="resultsImage">
+                            </div>
+                            <div class="col-10">
+                                <div class="resultsHeading">the Big chill cake</div>
+                                <div class="resultsSubHeading">FORT</div>
+                                <div class="resultsAddress">shop1,cbn,nizamabad</div>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row lowerSection">
+                            <div class="col-2">
+                                <div class="resultsAddress">CUISNESS:</div>
+                                <div class="resultsAddress">COST FOR TWO:</div>
+                                
+                            </div>
+                            <div class="10">
+                                <div class="resultsSubHeading">Bakery:</div>
+                                <div class="resultsSubHeading">&#8377; 700</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resultsPanel">
+                        <div class="row upperSection">
+                            <div class="col-4">
+                                <img src="idli.jpg" class="resultsImage">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <div class="paginationButton"><</div>
+                        <div class="paginationButton">1</div>
+                        <div class="paginationButton">2</div>
+                        <div class="paginationButton">3</div>
+                        <div class="paginationButton">4</div>
+                        <div class="paginationButton">5</div>
+                        <div class="paginationButton">></div>
+                    </div>
+             </div>
+        </div>
+        </div>
+    </body>
+</html>

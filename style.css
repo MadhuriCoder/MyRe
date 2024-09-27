@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.topSection{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    background-color: red;
+    background-position: fixed;
+    height: 50px;
+    justify-content: right;
+    
+    
+    align-items: right;
+    top: 15px;
+    
+    
+}
+.navbar{
+    position: absolute;
+    height: 40px;
+    margin-bottom: 3px;
+    
+}
+.navbar_box{
+    position: absolute;
+    border: 2px solid black;
+    height: 42px;
+    width:80%;
+    margin:auto;
+    text-align: center;
+    line-height: 48px;
+    
+}
+.LoginButton{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.CreateButton{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    
+}
+.logo{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    margin: auto;
+    padding: 2px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 33px;
+    letter-spacing: normal;
+    color: #dd0d0d;
+    text-align: center;
+
+}
+.container{
+}
+.row_heading{
+
+}
+.heading{
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f62;
+    margin:20px 0;
+}
+.filterPanel{
+    height: 682px;
+    box-shadow: 0 3px 6px 0 rgba(12, 12, 12, 0.177);
+    background-color: white;
+    padding: 15px;
+}
+.resultsPanel{
+    height: 293px;
+    box-shadow: 0 3px 6px 0 rgba(12, 12, 12, 0.177);
+    background-color: white;
+    padding: 30px;
+    justify-content: left;
+    
+}
+.filterPanelHeading{
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f62;
+    
+    
+}
+.filterPanelSubHeading{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f62;
+    margin: 15px 0; 
+}
+
+.locationsection{
+    height: 35px;
+    width: 100%;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #192f62;
+}
+.cuisinOption{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f62;
+    margin: 10px;
+}
+.upperSection{
+    padding: 20px;
+    padding-bottom: 0;
+}
+.lowerSection{
+    padding: 20px;
+    padding-bottom: 0;
+}
+.resultsImage{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+.resultsHeading{
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f63;
+}
+
+.resultsSubHeading{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f63;
+    
+}
+
+.resultsAddress{
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f63;
+    
+}
+.pagination{
+    display: flex;
+    padding-left: 30%;
+   
+}
+.paginationButton{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 2px;
+
+}
+@media  screen and (max-width:1220px) {
+    .resultsHeading, .resultsSubHeading, .resultsAddress{
+        margin-left: 50px;
+    }
+    .lowerSection{
+        padding-top: 0;
+    }
+    .lowerSection .resultsAddress{
+        margin-left: 0;
+        width: 100px;
+
+    }
+}
